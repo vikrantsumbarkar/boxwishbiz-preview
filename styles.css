@@ -8,3 +8,13 @@
 .diwali-hero-kicker span{padding:0 10px;color:#b18a4a}
 .diwali-hero p{font-family:Arial,sans-serif;font-size:19px;line-height:1.5;color:#3d342a;max-width:470px}
 @media(max-width:700px){.diwali-hero{min-height:600px;padding:70px 0;background-position:58% center}.diwali-hero .eyebrow{font-size:34px}.diwali-hero h1{font-size:46px}.diwali-hero-kicker{font-size:11px;letter-spacing:.1em}.diwali-hero p{font-size:17px}}
+
+/* Homepage Diwali campaign banner */
+.diwali-home-banner{padding:28px 0 8px;background:var(--soft)}
+.diwali-home-banner-inner{display:block;min-height:250px;border-radius:22px;overflow:hidden;text-decoration:none;background:linear-gradient(90deg,rgba(0,3,46,.92) 0%,rgba(0,3,46,.72) 45%,rgba(0,3,46,.18) 100%),url('diwali-hero-clean.jpg') center/cover;box-shadow:0 16px 45px rgba(0,3,46,.14)}
+.diwali-home-banner-copy{max-width:650px;padding:42px 48px;color:#fff}
+.diwali-home-banner .eyebrow{color:var(--gold);margin-bottom:8px}
+.diwali-home-banner h2{margin:0 0 10px;color:#fff;font-size:clamp(28px,3.4vw,44px);line-height:1.08}
+.diwali-home-banner p{margin:0 0 20px;color:rgba(255,255,255,.9);font-size:16px;line-height:1.5}
+.diwali-home-banner .btn{display:inline-block}
+@media(max-width:640px){.diwali-home-banner-inner{min-height:330px;background-position:62% center}.diwali-home-banner-copy{padding:34px 24px}.diwali-home-banner h2{font-size:30px}.diwali-home-banner p{font-size:15px}}
